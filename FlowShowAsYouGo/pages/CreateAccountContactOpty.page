@@ -1,0 +1,18 @@
+<apex:page sidebar="false" controller="aFlowController">
+ <flow:interview name="Create_Account_Contact_and_Opty" interview="{!myFlow}" />
+<apex:panelBar > 
+<apex:panelBarItem label="Watch this space for your records created in the flow">
+     <apex:outputlink value="{!accountLink}">{!AccountInfo}</apex:outputlink><br/>
+     <apex:outputlink value="{!contactLink}">{!ContactInfo}</apex:outputlink><br/>
+     <apex:outputlink value="{!OptyLink}">{!OptyInfo}</apex:outputlink><br/>
+</apex:panelBarItem>
+</apex:panelBar>
+<br/>
+<br/>
+<apex:panelBar >
+<apex:panelBarItem label="Watch this space for your most recent record details created in the flow">
+     <apex:detail subject="{!recentRecord}" showChatter="false" relatedList="false"/>
+ </apex:panelBarItem>
+</apex:panelBar> 
+
+</apex:page>
