@@ -1,4 +1,19 @@
 FlowShowAsYouGo
+===================
 
-This sample is intented to show how to create a dynamic VF page which can get information from the flow (through variables) as the flow progresses.
+This is a sample Salesforce ANt packages whichis intented to show how to create a dynamic VF page which can get information from the flow (through variables) as the flow progresses.
 You can see how the VF page can use other VF components such as <apex:detail> to display the details of any record created within a flow.
+
+
+Instructions( When using Salesforce Ant)
+-----------------------------------------
+1. Get the package
+2. Modify the build.properties file to point to your salesforce instance
+3. run 'ant deployUnpackaged'
+
+
+Instructions( When NOT using Salesforce Ant)
+-----------------------------------------
+1. Get the package
+2. Use the IDE or any other MD API based tool to create the Flow
+4. Create the Visualforce Page and the Apex Controller class listed in the package manually.
