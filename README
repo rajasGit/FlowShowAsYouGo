@@ -16,33 +16,5 @@ Instructions( When NOT using Salesforce Ant)
 -----------------------------------------
 1. Get the package
 2. Use the IDE or any other MD API based tool to create the Flow
-4. Create the Visualforce Page and the Apex Controller class listed in the package manually.
-
-
-FlowPluginPack
-==============
-
-Visual Workflow lets the business take the driver’s seat when building an application. 
-You can extend the logic in a flow by calling Apex classes, allowing developers to tackle more 
-technical problems. W
-This Flow Plug-in Pack includes the following Apex plug-in classes:
-Convert Lead
-Send Email
-Create and Attach PDF Document
-Submit for Approval
-
-Note: Almost all of the Apex plug-ins operate on data in your organization.
-
-
-Instructions( When using Salesforce Ant)
------------------------------------------
-1. Get the package
-2. Modify the build.properties file to point to your salesforce instance
-3. run 'ant deployUnpackaged'
-
-
-Instructions( When NOT using Salesforce Ant)
------------------------------------------
-1. Get the package
-2. Create the Apex Plug-in classes manually
+3. Create the Visualforce Page and the Apex Controller class listed in the package manually.
 
